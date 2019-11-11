@@ -1,0 +1,33 @@
+---
+name : httpost
+pack: adtwonos_pack
+runner_type: "python-script"
+description: HTTP Post
+enabled : true
+entry_point : httpost.py
+parameters:
+  bookid :
+    type: integer
+    description : First Input
+    required: true
+    position : 1
+  booktitle : 
+    type: string
+    description : Second Input
+    required: true
+    position : 2
+  despcrip : 
+    type: string
+    description : Third Input
+    required: true
+    position : 3
+  pgcount :
+    type: integer
+    description : Fourth Input
+    required: true
+    position : 4
+  excerpt :
+    type: string
+    description : Fifth Input
+    required: true
+    position : 5
